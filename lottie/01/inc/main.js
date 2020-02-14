@@ -37,13 +37,17 @@ var animation04 = bodymovin.loadAnimation({
   path: "./json/menu.json"
 });
 
+
+
+
 home.addEventListener("click", rePlay01);
 my.addEventListener("click", rePlay02);
 chat.addEventListener("click", rePlay03);
 menu.addEventListener("click", rePlay04);
 
 function rePlay01 () {
-  animation01.playSegments([40, 60], true)  
+  animation01.playSegments([40, 60], true);
+  animation01.setSpeed(2);
 }
 
 function rePlay02 () {
@@ -56,4 +60,5 @@ function rePlay03 () {
 
 function rePlay04 () {
   animation04.playSegments([40, 60], true)
+  animation01.setSpeed(2);
 }

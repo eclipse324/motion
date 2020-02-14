@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* Font */
+@font-face {
+	font-family:sh;
+	src:url('../../inc/fonts/OneShinhanLight.ttf');
+	font-weight: 300;
+	font-style: normal
+}
+@font-face {
+	font-family:sh;
+	src:url('../../inc/fonts/OneShinhanMedium.ttf');
+	font-weight: 500;
+	font-style: normal
+}
+@font-face {
+	font-family:sh;
+	src:url('../../inc/fonts/OneShinhanBold.ttf');
+	font-weight: 700;
+	font-style: normal
+}
+div,p,h1,h2,h3,h4,h5,span,li,dt,dd, p{font-family:sh, Arial, dotum; text-align: center;line-height: 1.5em;}
+.clear:after{display: table; content: ''; clear: both}
+
+#wrap{position:relative; width:100%; min-height:100%; overflow:hidden; box-sizing:border-box;}
+#wrap .aviArea {position:absolute; bottom:0.2%; left:2.7%; width:94.6%; padding-bottom:54%; box-sizing:border-box;}
+#wrap .aviArea iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
+#mainBnr img {width:100%;}
+#mainBnr {position:relative; }
+#mainBnr .layer01 {position:absolute; top:-20px; left:0; z-index:1; opacity:0;}
+#mainBnr .layer02 {position:absolute; top:-20px; left:0; z-index:2; opacity:0;}
+#mainBnr .layer03 {position:absolute; top:-20px; left:0; z-index:3; opacity:0;}
+#mainBnr .layer04 {position:absolute; top:-20px; left:0; z-index:4; opacity:0;}
+#mainBnr .layer05 {position:absolute; top:-20px; left:0; z-index:5; opacity:0;}
+#mainBnr .layer06 {position:absolute; top:-20px; left:0; z-index:6; opacity:0;}
+
+/*con1*/
+.con1{background: #e99dc1;}
+.con1 .con1Inner{width: 320px; margin: 0 auto; padding: 80px 0;}
+.con1 h3{font-size: 23px; font-weight: 300; text-align: left;}
+.con1 .graph{background: #eaa7c8; width: 266px; border-radius: 2px; float: left; margin-top: 5px;}
+.con1 .graph span{background:#fff; display: block; height: 20px; border-radius: 2px;}
+.con1 .graph span.p99{width: 99%}
+.con1 .graph span.p65{width: 65%}
+.con1 .graph span.p17{width: 17%}
+.con1 .graph span.p06{width: 6%}
+.con1 .gWrap p{font-size: 20px; color: #fff; float: right}
+.con1 .con1Inner>div{margin-top: 37px;}
+.con1 .con1Inner>div:first-child{margin-top: 40px;}
+.con1 .con1Inner>div>p{color: #4a5777; font-size: 14px; margin: 8px 0 0 5px; text-align: left;}
+
+/*con2*/
+.con2 .bigText{margin: 69px 0 29px; text-align: center; font-size: 22px; color: #4a5777;}
+.con2 .bigText span{font-size: 24px; display: block; font-weight: 300; margin-bottom: 10px;}
+.con2 ul{margin: 0 20px 90px;}
+.con2 ul li{width: 50%; float: left; text-align: center;}
+.con2 ul li:nth-child(1),.con2 ul li:nth-child(2){margin-bottom: 10px;}
+.con2 ul li div{padding: 26px 0; height: 100px; box-sizing: border-box;}
+.con2 ul li:nth-child(1) div{background:#60ccf2; margin-right:5px}
+.con2 ul li:nth-child(2) div{background:#70d3d6; margin-left:5px}
+.con2 ul li:nth-child(3) div{background:#99a3fe; margin-right:5px}
+.con2 ul li:nth-child(4) div{background:#7bb5ff; margin-left:5px}
+.con2 ul li div img{height: 33px; width: auto; margin-bottom: 5px;}
+.con2 ul li div p{font-size: 13px; color: #fff; line-height: 13px;}
+
+/*con3*/
+.con3 .smallHeader{font-size: 14px; color: #4a5777}
+.con3 .bigH4{margin:13px 0 8px ;font-size: 24px; font-weight: 700; color: #4a5777}
+.con3>p{font-size: 14px;color: #8e9aa8}
+.con3 ul{margin: 37px 20px 84px;}
+.con3 ul li{width: 50%; float: left; text-align: center;}
+.con3 ul li dt{font-size: 18px; color: #020202; margin: 12px 0 14px;}
+.con3 ul li dd{font-size: 11px; color: #fff; font-weight: 300;}
+.con3 ul li>div{background: #60ccf2; padding:20px 0 28px;box-sizing: border-box;}
+.con3 ul li:nth-child(odd)>div{margin:0 5px 10px 0;}
+.con3 ul li:nth-child(even)>div{margin:0 0 10px 5px;} 
+.con3 ul li:nth-child(2)>div, .con3 ul li:nth-child(5)>div{background: #70d3d6}
+.con3 ul li:nth-child(3)>div, .con3 ul li:nth-child(8)>div{background: #99a3fe}
+.con3 ul li:nth-child(4)>div, .con3 ul li:nth-child(7)>div{background: #7ab5fc}
+.con3 ul li img{width: 33px;} 
+.con3 .sfu{margin: 40px 0 90px;}
+.con3 .iux{margin:30px 0}
+.con3 .sux{margin:38px 0}
+.con3>img{width: 320px;}
+.aviPlay{width: 100%;}
+
+@media screen and (min-width: 500px) and (max-width: 1024px){
+	#mainBnr{background-color:#f0f0f8 }
+	#mainBnr img{width: 75%;}
+	.layer01,.layer02,.layer03,.layer04,.layer05,.layer06{text-align: right;}
+}
