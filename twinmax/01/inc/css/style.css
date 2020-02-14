@@ -134,7 +134,7 @@ body,div,form,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,em,p,span,textarea,pre,label
 
 /*sec7*/
 .contents .sec7{margin-top: 215px; position:relative; height:850px; box-sizing:border-box;}
-.contents .sec7 .imgSect{background:url(images/line.png) no-repeat center center;  }
+.contents .sec7 .imgSect{background:url(../images/line.png) no-repeat center center;  }
 .contents .sec7 ul.iconBox{position:relative; width:1351px; height:287px; margin:0 auto;}
 .contents .sec7 ul.iconBox:after{content:''; display:table; clear:both; }
 .contents .sec7 ul.iconBox li {position:absolute; width:132px; height:132px;}
